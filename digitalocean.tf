@@ -13,7 +13,7 @@ resource "digitalocean_droplet" "webapp" {
 }
 
 resource "digitalocean_droplet" "logapp" {
-	image = "cenos-7-x64"
+	image = "centos-7-x64"
 	name = "logapp"
 	region = "sgp1"
 	size = "512mb"
